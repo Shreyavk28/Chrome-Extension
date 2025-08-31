@@ -63,5 +63,23 @@ For major changes, please open an issue first to discuss what you’d like to ch
 ---
 
 ## 📂 Project Structure
+```plaintext
+Chrome-extension-main/
+│── time-tracker-extension/ # Chrome extension source
+│ ├── manifest.json # Extension manifest file
+│ ├── background.js # Background service worker
+│ ├── popup/ # Popup UI (HTML, CSS, JS)
+│ ├── dashboard/ # Dashboard UI + chart rendering
+│ └── icons/ # Extension icons (16px, 48px, 128px)
+│
+│── time-tracker-server/ # Backend server
+│ ├── server.js # Express server
+│ ├── db.json # Local database (JSON-based)
 │ ├── package.json # Node.js dependencies
 └── └── node_modules/ # Installed dependencies
+
+---
+
+## 📄 License
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+
